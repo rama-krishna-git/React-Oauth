@@ -1,0 +1,25 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+server3/node_modules
+# dependencies
+reactfirst/node_modules
+reactfirst/.pnp
+reactfirst.pnp.js
+
+# testing
+reactfirst/coverage
+
+# production
+reactfirst/build
+
+# misc
+reactfirst/.DS_Store
+reactfirst/.env.local
+reactfirst/.env.development.local
+reactfirst/.env.test.local
+reactfirst/.env.production.local
+
+reactfirst/npm-debug.log*
+reactfirst/yarn-debug.log*
+reactfirst/yarn-error.log*
+server3/.env
